@@ -1,4 +1,4 @@
-"""Download private release assets using an existing login; credentials remain in memory."""
+"""Download release assets with optional GitHub login; credentials remain in memory."""
 import argparse
 import hashlib
 import json
@@ -18,12 +18,13 @@ def token():
     if shutil.which('gh'):
         result=subprocess.run(['gh','auth','token'],capture_output=True,text=True)
         if result.returncode==0 and result.stdout.strip():return result.stdout.strip()
-    result=subprocess.run(['git','-c','credential.interactive=never','credential','fill'],
-        input='protocol=https\nhost=github.com\nusername=Chengsong-Fu\n\n',capture_output=True,text=True,
-        env={**os.environ,'GIT_TERMINAL_PROMPT':'0','GCM_INTERACTIVE':'never'})
-    values=dict(s.split('=',1) for s in result.stdout.splitlines() if '=' in s)
-    if result.returncode==0 and values.get('password'):return values['password']
-    raise SystemExit('Please sign in with gh auth login, configure Git Credential Manager, or set GH_TOKEN/GITHUB_TOKEN locally.')
+    if shutil.which('git'):
+        result=subprocess.run(['git','-c','credential.interactive=never','credential','fill'],
+            input='protocol=https\nhost=github.com\nusername=Chengsong-Fu\n\n',capture_output=True,text=True,
+            env={**os.environ,'GIT_TERMINAL_PROMPT':'0','GCM_INTERACTIVE':'never'})
+        values=dict(s.split('=',1) for s in result.stdout.splitlines() if '=' in s)
+        if result.returncode==0 and values.get('password'):return values['password']
+    return None
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
@@ -36,7 +37,9 @@ def main():
     manifest=json.loads((ROOT/'metadata/archives.json').read_text(encoding='utf-8'))
     parts=[p for a in manifest['archives'] if not args.scenario or a['scenario']==args.scenario for p in a['parts']]
     base='https://api.github.com/repos/'+manifest['repository']
-    headers={'Authorization':'Bearer '+token(),'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}
+    headers={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}
+    credential=token()
+    if credential:headers['Authorization']='Bearer '+credential
     with httpx.Client(headers=headers,follow_redirects=True,timeout=120) as api:
         response=api.get(base+'/releases/tags/'+manifest['tag'])
         response.raise_for_status()

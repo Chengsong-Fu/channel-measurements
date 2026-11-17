@@ -1,6 +1,6 @@
 # SC1–SC4 信道测量数据集
 
-本仓库整理 2026 年 8 月采集的 **6–7.5 GHz** 信道测量数据，包含原始 S21/TDR、采集配置、逐次参数、大尺度与小尺度分析结果，以及已核对的场景坐标。仓库为 **私有**；太赫兹测量尚未提供，目前仅预留扩展说明。
+本仓库整理 2026 年 8 月采集的 **6–7.5 GHz** 信道测量数据，包含原始 S21/TDR、采集配置、逐次参数、大尺度与小尺度分析结果，以及已核对的场景坐标。仓库为 **公开**，可直接浏览和下载；太赫兹测量尚未提供，目前仅预留扩展说明。
 
 **完整数据下载：[数据 Release · data-2026-08-v1](https://github.com/Chengsong-Fu/channel-measurements/releases/tag/data-2026-08-v1)**。普通的 GitHub “Download ZIP” 或 `git clone` 只包含说明、目录、示例和精选报告图，不包含完整原始 MAT；请按下方步骤下载 Release 附件。
 
@@ -68,7 +68,7 @@ data/                     下载恢复后生成；不进入 Git 历史
 
 ## 下载与使用
 
-需要 Python 3.10+。请先使用有权限的 GitHub 账号登录 Git Credential Manager 或 GitHub CLI；也支持在自己终端的环境变量中配置 `GH_TOKEN` / `GITHUB_TOKEN`。脚本不会把令牌写入文件或打印出来。
+需要 Python 3.10+。公开数据支持免登录下载。如需使用 GitHub 账号提高 API 请求限额，可通过 Git Credential Manager、GitHub CLI 或自己终端中的 `GH_TOKEN` / `GITHUB_TOKEN` 环境变量提供凭据。脚本不会把令牌写入文件或打印出来。
 
 ```bash
 git clone https://github.com/Chengsong-Fu/channel-measurements.git
@@ -115,6 +115,6 @@ python scripts/read_capture.py --scenario sc1 --point P03 --repeat 12 --antenna 
 - **sc 开头的采集源目录中的大小尺度结果均保留**。`report/` 只收录报告中已完成的大尺度结果和场景图，不收录报告中不正确的小尺度图，也不上传包含这些图的完整 Word 文档。
 - 报告统一汇总表、历史分批次拟合和原始后处理结果各有统计口径，分别保存，不混用系数或重新拟合。
 
-详见 [场景与距离](docs/SCENARIOS.md)、[来源与处理说明](docs/PROVENANCE.md)。数据未附加开放许可；私有访问不等于获得对外发布或再分发授权。
+详见 [场景与距离](docs/SCENARIOS.md)、[来源与处理说明](docs/PROVENANCE.md)。数据未附加开放许可。
 
 场景与天线图的可编辑矢量版本为同名 SVG。复现绘图：安装 `requirements-figures.txt`，再运行 `python scripts/draw_figures.py`；中文字体可使用 Microsoft YaHei 或 Noto Sans CJK SC。
