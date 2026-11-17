@@ -1,0 +1,32 @@
+{
+  "patterns": [
+    {
+      "file": "data/directional-pattern.csv",
+      "source": "EuCAP_Paper/EuCAP_Conference_202610091144/analysis/input_data/antenna_patterns/directional_6p775GHz_digitized.csv",
+      "sha256": "f0c96a24fa292e082439dc8c2d6a701e6e994ea6b1313ca22f91bde67325bcd6"
+    },
+    {
+      "file": "data/quasi-omni-pattern.csv",
+      "source": "EuCAP_Paper/EuCAP_Conference_202610091144/analysis/input_data/antenna_patterns/quasi_omni_6p775GHz_digitized.csv",
+      "sha256": "f2e43ea7af9659f73809930e6820b666aaf5b7f323c413003e3a5bc976b5fe94"
+    }
+  ],
+  "directional_gain": {
+    "source": "VNA_channel_parameter_processing/Postprocessing_plan_config.m",
+    "sha256": "71465c89e25e24d66073b22b9a9338e1dc99dd59f786fdd0af8cfc4e55480ca9",
+    "description": "处理配置保存的厂家频率–峰值增益曲线，12 个原始结点；按频率线性插值"
+  },
+  "quasi_omni_gain": {
+    "source": "VNA_channel_parameter_processing/gain_ant_3000to8000.mat",
+    "sha256": "aede82b1bc7a3689c21929554ffbdc30c25703be41033e9d1885aebe0423ce13",
+    "variable": "G_ant_golden",
+    "description": "既有处理使用的 998 点增益校正曲线；频率轴沿用 linspace(3,8,1000)[1:-1]，原 MAT 未单独保存频率轴，未视为新核验的暗室扫描"
+  },
+  "measurement_grid": {
+    "start_ghz": 6,
+    "stop_ghz": 7.5,
+    "points": 3001,
+    "method": "在两个源曲线上分别线性插值，不外推"
+  },
+  "directional_pattern_note": "源图标注 6.89 GHz；既有资料按作者要求在 6.775 GHz 比较。这里同时保留两种频率含义，不将转用假设写成实测频率。"
+}

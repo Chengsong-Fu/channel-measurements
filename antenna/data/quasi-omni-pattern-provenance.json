@@ -1,0 +1,11 @@
+{
+  "antenna": "quasi-omnidirectional",
+  "model": "UWB DeepAce2",
+  "comparison_frequency_GHz": 6.775,
+  "reported_nominal_peak_gain_dBi": 3.8,
+  "reported_H_plane_characteristic": "quasi-omnidirectional, approximately +/-1.5 dB ripple",
+  "reported_E_plane_HPBW_deg": "approximately 80",
+  "source": "author-confirmed manufacturer and anechoic-chamber radiation-pattern result supplied as a raster image",
+  "digitization": "manual curve tracing against the plotted angle and gain axes, followed by shape-preserving interpolation for display",
+  "accuracy_note": "The plotted samples are approximate raster-derived values; the original manufacturer or chamber export remains the authoritative record."
+}

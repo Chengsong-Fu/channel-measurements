@@ -113,14 +113,17 @@ CSV 字段因结果类型和场景而异；每个 CSV 的完整列名与行数�
 - `captured_at_utc`（ISO 8601 UTC）、`succeeded`（0/1）。
 - `tx_x_m` / `tx_y_m` / `tx_z_m` 与 `rx_x_m` / `rx_y_m` / `rx_z_m`。
 - `distance_m`：三维直线距离；`corridor_distance_m`：有明确资料时的沿走廊距离。
+- `horizontal_distance_m`：已知 x/y 计算的平面直线距离；`coordinate_dimension`：`xyz` 或 `xy`，表示坐标依据的维数。校准记录为空。
 - `propagation_condition`、`raw_file`（相对仓库根目录的恢复路径）。
 
-`metadata/points.csv` 是不按重复展开的场景测量点映射；校准记录在采集目录中单独标为 CAL。SC4 的坐标、距离为空，其他场景的坐标适用于明确列出的八个批次，不能自动套用于未来采集。
+`metadata/points.csv` 是不按重复展开的场景测量点映射；校准记录在采集目录中单独标为 CAL。SC4 已补充经两批位置映射验证的二维坐标和 `horizontal_distance_m`，z 与三维 `distance_m` 留空；其坐标来源见 `metadata/sc4-coordinate-source.json`。所有场景的坐标仅适用于明确列出的八个批次。
 
 `metadata/files.csv` 记录 `scenario,campaign,path,size_bytes,sha256`。SHA-256 对应恢复后的源文件内容，不是 ZIP 压缩字节。`metadata/archives.json` 同时记录分卷与合并 ZIP 的散列，采用顺序 `.001,.002,...` 合并。
 
 ## 4. 报告结果与后续太赫兹数据
 
-`report/large-scale.json`、`table-*.csv` 与 14 张大尺度 PNG 来源于报告；另有 3 张场景原图。统一汇总表、历史分批次拟合和源后处理结果分别保存。报告空白参数保持空白；没有混入报告中不正确的小尺度图。
+`report/large-scale.json`、`table-*.csv` 与 14 张大尺度 PNG 来源于报告；`report/sc1-layout` 至 `sc4-layout` 的 PNG / SVG 为按核对坐标重绘的四张场景图，替代旧场景图。统一汇总表、历史分批次拟合和源后处理结果分别保存。报告空白参数保持空白；没有混入报告中不正确的小尺度图。
+
+天线方向图、原始增益结点、沿用的处理频率映射及 3,001 点插值表位于 `antenna/`，数据来源及数值含义见 [天线说明](../antenna/README.md)。
 
 太赫兹文件尚未提供，暂不约定数组维度、频率范围、天线、场景或数据格式。未来接入时将单独建立版本、字段字典、清单和读取器。

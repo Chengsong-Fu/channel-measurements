@@ -1,0 +1,11 @@
+{
+  "antenna": "directional",
+  "comparison_frequency_GHz": 6.775,
+  "reported_peak_gain_dBi": 20.52,
+  "reported_H_plane_HPBW_deg": 16.9,
+  "reported_E_plane_HPBW_deg": 15.6,
+  "source": "author-confirmed manufacturer and anechoic-chamber radiation-pattern result supplied as a raster image",
+  "digitization": "manual color-curve tracing against the plotted angle and gain axes, followed by shape-preserving interpolation for display",
+  "frequency_note": "The supplied directional raster carried a 6.89-GHz label; at the author's instruction both antenna cuts are presented on the common 6.775-GHz comparison axis used by the manuscript.",
+  "accuracy_note": "The plotted samples are approximate raster-derived values; the original manufacturer or chamber export remains the authoritative record."
+}

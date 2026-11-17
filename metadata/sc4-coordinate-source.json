@@ -1,0 +1,39 @@
+{
+  "source_file": "VNA_channel_parameter_processing/Postprocessing_plan_config.m",
+  "source_sha256": "71465c89e25e24d66073b22b9a9338e1dc99dd59f786fdd0af8cfc4e55480ca9",
+  "source_lines": "207–214（坐标及 MATLAB 展开顺序）",
+  "rx_xy_m": [
+    2.02,
+    1.24
+  ],
+  "tx_x_m": [
+    2.02,
+    5.22,
+    8.5
+  ],
+  "tx_y_m": [
+    5.45,
+    9.2,
+    12.6
+  ],
+  "point_order": "先固定 y，依次遍历 x；P01–P09 对应原始位置 2–10",
+  "coordinate_dimension": "xy",
+  "height_m": null,
+  "distance_definition": "horizontal_distance_m = hypot(Tx_x-Rx_x, Tx_y-Rx_y)",
+  "mapping_validation": [
+    {
+      "campaign": "sc4_20260807_150330",
+      "path": "sc4_20260807_150330/Postprocessing_Results/inh_directional_position_mapping.csv",
+      "sha256": "d51e081824bf27b52f830adb3abfae02066cc380ae6ef3e0a78909c5917c69f8",
+      "verified_points": 9,
+      "max_error_m": 4.796163466380676e-14
+    },
+    {
+      "campaign": "sc4_20260810_102021",
+      "path": "sc4_20260810_102021/Postprocessing_Results/inh_omni_position_mapping.csv",
+      "sha256": "d51e081824bf27b52f830adb3abfae02066cc380ae6ef3e0a78909c5917c69f8",
+      "verified_points": 9,
+      "max_error_m": 4.796163466380676e-14
+    }
+  ]
+}
