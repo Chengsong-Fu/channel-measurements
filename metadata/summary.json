@@ -1,0 +1,14 @@
+{
+  "scientific_files": 3846,
+  "scientific_bytes": 13219409614,
+  "raw_records": 11200,
+  "processed_records": 93600,
+  "calibration_records": 800,
+  "excluded_files": 431,
+  "excluded_bytes": 466327,
+  "exclusion_reasons": {
+    "MATLAB temporary worker/preferences directory": 431
+  },
+  "release_parts": 17,
+  "terahertz_status": "awaiting_upload"
+}

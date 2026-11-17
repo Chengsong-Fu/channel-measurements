@@ -1,0 +1,164 @@
+{
+  "tag": "data-2026-08-v1",
+  "repository": "Chengsong-Fu/channel-measurements",
+  "part_size_limit": 1073741824,
+  "archives": [
+    {
+      "campaign": "sc1_20260811_112618",
+      "scenario": "sc1",
+      "name": "sc1_20260811_112618.zip",
+      "size_bytes": 1960374599,
+      "sha256": "a7bb145a9b5c531c97bfa62f6564e3973167eaa589f1f7714f2d1274c4ba62d0",
+      "parts": [
+        {
+          "name": "sc1_20260811_112618.zip.001",
+          "size_bytes": 1073741824,
+          "sha256": "c572db35b6cc8dc12fe2f352d811c9d4b90774cf4f1a7f4de0179da09fd6ec0d"
+        },
+        {
+          "name": "sc1_20260811_112618.zip.002",
+          "size_bytes": 886632775,
+          "sha256": "aaf064e60ee539920a65b73fa373ce3f3e07a5b2f45063b40d9f35a0bf1c92c9"
+        }
+      ]
+    },
+    {
+      "campaign": "sc1_20260812_090646",
+      "scenario": "sc1",
+      "name": "sc1_20260812_090646.zip",
+      "size_bytes": 1966260243,
+      "sha256": "2ebcb608641e76d619c68731a691aead2b58f6a14320ca6fc31293d486dd15f0",
+      "parts": [
+        {
+          "name": "sc1_20260812_090646.zip.001",
+          "size_bytes": 1073741824,
+          "sha256": "ccd953da02e5a7a83cfff790c69ad679953420f7502605b3233e9a81bfdcd07a"
+        },
+        {
+          "name": "sc1_20260812_090646.zip.002",
+          "size_bytes": 892518419,
+          "sha256": "a57ce13de2e77d052045abf318a186749483c17ac10afa5b4aed9af472813975"
+        }
+      ]
+    },
+    {
+      "campaign": "sc2_20260813_095704",
+      "scenario": "sc2",
+      "name": "sc2_20260813_095704.zip",
+      "size_bytes": 1339786359,
+      "sha256": "132e7d6c7b4c6d59ee4ce1dcd2c496efc143ca8dc7b98e516389c2a60157f22e",
+      "parts": [
+        {
+          "name": "sc2_20260813_095704.zip.001",
+          "size_bytes": 1073741824,
+          "sha256": "5030d45ae8e1edca906e49dec2670fdba16889ca531e91bb06a35adf8bb70115"
+        },
+        {
+          "name": "sc2_20260813_095704.zip.002",
+          "size_bytes": 266044535,
+          "sha256": "668c2baaf158c81f3f4e8b151a8b287ad0ead983058f3f3034fd014484893ddd"
+        }
+      ]
+    },
+    {
+      "campaign": "sc2_20260814_093939",
+      "scenario": "sc2",
+      "name": "sc2_20260814_093939.zip",
+      "size_bytes": 959892867,
+      "sha256": "b010c16a48142ccb30eaa1ebf47daae14d3754acf9d252897c9943abfde242f9",
+      "parts": [
+        {
+          "name": "sc2_20260814_093939.zip.001",
+          "size_bytes": 959892867,
+          "sha256": "b010c16a48142ccb30eaa1ebf47daae14d3754acf9d252897c9943abfde242f9"
+        }
+      ]
+    },
+    {
+      "campaign": "sc3_20260817_095203",
+      "scenario": "sc3",
+      "name": "sc3_20260817_095203.zip",
+      "size_bytes": 2192216306,
+      "sha256": "dc19ddc83257acbecee31837fb9c71797f3c84473bc7fffdf7765b96955845e2",
+      "parts": [
+        {
+          "name": "sc3_20260817_095203.zip.001",
+          "size_bytes": 1073741824,
+          "sha256": "f8d6a61a7bb8f36412ffc2cb7f685091fe169acee2655c326cfca30bc03de46d"
+        },
+        {
+          "name": "sc3_20260817_095203.zip.002",
+          "size_bytes": 1073741824,
+          "sha256": "1805c322579ac7cc38e169347c6a7c6396723e5bbd925c478600feacb088d76d"
+        },
+        {
+          "name": "sc3_20260817_095203.zip.003",
+          "size_bytes": 44732658,
+          "sha256": "2eedbc33b3edf3b2d79d2572d4202dac99ea86930bb24a64d11b7e28d758368c"
+        }
+      ]
+    },
+    {
+      "campaign": "sc3_20260818_094059",
+      "scenario": "sc3",
+      "name": "sc3_20260818_094059.zip",
+      "size_bytes": 2282867695,
+      "sha256": "5c0e2a1472345d369aaea3d408dbe35235b461f094218c24a01c1d205fe074ce",
+      "parts": [
+        {
+          "name": "sc3_20260818_094059.zip.001",
+          "size_bytes": 1073741824,
+          "sha256": "5432685ffa27f793a3db7ff09aa84a99dc8b304dcfefabb989c3f9e3901ec24d"
+        },
+        {
+          "name": "sc3_20260818_094059.zip.002",
+          "size_bytes": 1073741824,
+          "sha256": "cddbe65ad005d961a4f945305cbe9778b1eb4b15da036a14c2632ca9084fa907"
+        },
+        {
+          "name": "sc3_20260818_094059.zip.003",
+          "size_bytes": 135384047,
+          "sha256": "4ff8dfc84a969335c9529a187ebfaea2e577d2416bb49c53a7a7dc6724d9c340"
+        }
+      ]
+    },
+    {
+      "campaign": "sc4_20260807_150330",
+      "scenario": "sc4",
+      "name": "sc4_20260807_150330.zip",
+      "size_bytes": 1296979613,
+      "sha256": "36a413d504f9f279bf21416caac4b141189b3660bcba1253afb9e822aa9c7f1f",
+      "parts": [
+        {
+          "name": "sc4_20260807_150330.zip.001",
+          "size_bytes": 1073741824,
+          "sha256": "9deaa432577a747806a2e4d87ca4c16b7f5c6c10a1590e20882a6f574cad5598"
+        },
+        {
+          "name": "sc4_20260807_150330.zip.002",
+          "size_bytes": 223237789,
+          "sha256": "932e5433345627b54ef70ea54f149f4ff4f911856e07942f0122dcf399b3aad5"
+        }
+      ]
+    },
+    {
+      "campaign": "sc4_20260810_102021",
+      "scenario": "sc4",
+      "name": "sc4_20260810_102021.zip",
+      "size_bytes": 1209516226,
+      "sha256": "c1c96f8bd43cc1486f07be209f4c98432cef39c190a8d070b9b2d6742d9a61e8",
+      "parts": [
+        {
+          "name": "sc4_20260810_102021.zip.001",
+          "size_bytes": 1073741824,
+          "sha256": "d2860c55d39504a9da145f44d760ce2a041dc74e6e3586b10a142b544c8a9d04"
+        },
+        {
+          "name": "sc4_20260810_102021.zip.002",
+          "size_bytes": 135774402,
+          "sha256": "4d5776b5fcb99d28e58801ff1debf18183a115ae0a059b1cec0910baef6b1ba7"
+        }
+      ]
+    }
+  ]
+}

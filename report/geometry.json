@@ -1,0 +1,1010 @@
+{
+  "source": {
+    "filename": "6GHz频段信道数据采集及建模文档-20260909.docx",
+    "sha256": "f3f8dda67fd7f9320f23118efa3e5764346cf08e06106ea8baaabd2a1d542fc9",
+    "section": "第 2.2 节，场景图及收发坐标；各场景详见 source_section"
+  },
+  "distance_definition": "d = √[(Tx_x−Rx_x)² + (Tx_y−Rx_y)² + (Tx_z−Rx_z)²]；单位 m。校准点无场景距离。",
+  "scenarios": {
+    "sc1": {
+      "name": "开放大厅",
+      "dimensions": [
+        28,
+        28.8
+      ],
+      "rx": [
+        3.85,
+        1.48,
+        1.5
+      ],
+      "points": [
+        {
+          "point_index": 1,
+          "raw_position_index": 2,
+          "point_label": "P01",
+          "point_role": "measurement",
+          "tx": [
+            3.85,
+            9.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 7.719999999999999,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 2,
+          "raw_position_index": 3,
+          "point_label": "P02",
+          "point_role": "measurement",
+          "tx": [
+            3.85,
+            15.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 13.719999999999999,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 3,
+          "raw_position_index": 4,
+          "point_label": "P03",
+          "point_role": "measurement",
+          "tx": [
+            3.85,
+            21.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 19.72,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 4,
+          "raw_position_index": 5,
+          "point_label": "P04",
+          "point_role": "measurement",
+          "tx": [
+            3.85,
+            27.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 25.72,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 5,
+          "raw_position_index": 6,
+          "point_label": "P05",
+          "point_role": "measurement",
+          "tx": [
+            10.2,
+            9.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 9.996044217589274,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 6,
+          "raw_position_index": 7,
+          "point_label": "P06",
+          "point_role": "measurement",
+          "tx": [
+            10.2,
+            15.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 15.118230716588497,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 7,
+          "raw_position_index": 8,
+          "point_label": "P07",
+          "point_role": "measurement",
+          "tx": [
+            10.2,
+            21.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 20.717164381256428,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 8,
+          "raw_position_index": 9,
+          "point_label": "P08",
+          "point_role": "measurement",
+          "tx": [
+            10.2,
+            27.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 26.492280007579566,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 9,
+          "raw_position_index": 10,
+          "point_label": "P09",
+          "point_role": "measurement",
+          "tx": [
+            16.69,
+            9.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 14.982122680047711,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 10,
+          "raw_position_index": 11,
+          "point_label": "P10",
+          "point_role": "measurement",
+          "tx": [
+            16.69,
+            15.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 18.791061704970264,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 11,
+          "raw_position_index": 12,
+          "point_label": "P11",
+          "point_role": "measurement",
+          "tx": [
+            16.69,
+            21.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 23.531765764599985,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 12,
+          "raw_position_index": 13,
+          "point_label": "P12",
+          "point_role": "measurement",
+          "tx": [
+            16.69,
+            27.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 28.74689548455624,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 13,
+          "raw_position_index": 14,
+          "point_label": "P13",
+          "point_role": "measurement",
+          "tx": [
+            22.83,
+            9.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 20.489968277183834,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 14,
+          "raw_position_index": 15,
+          "point_label": "P14",
+          "point_role": "measurement",
+          "tx": [
+            22.83,
+            15.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 23.419624249761135,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 15,
+          "raw_position_index": 16,
+          "point_label": "P15",
+          "point_role": "measurement",
+          "tx": [
+            22.83,
+            21.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 27.370034709513977,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 16,
+          "raw_position_index": 17,
+          "point_label": "P16",
+          "point_role": "measurement",
+          "tx": [
+            22.83,
+            27.2,
+            1.5
+          ],
+          "rx": [
+            3.85,
+            1.48,
+            1.5
+          ],
+          "distance_m": 31.964962067864242,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        }
+      ],
+      "source_image": "sc1-source.png",
+      "source_caption": "报告图 4(a)，原图为早期 12 点布局。",
+      "source_section": "第 2.2 节场景一说明、图 4(a)",
+      "note": "当前 2026 年 8 月批次按正文补充设置使用 4×4 共 16 个测量点。原始位置 1 为校准，原始位置 2–17 对应 P01–P16。收发天线均高 1.5 m。",
+      "campaigns": [
+        "sc1_20260811_112618",
+        "sc1_20260812_090646"
+      ]
+    },
+    "sc2": {
+      "name": "狭窄走廊",
+      "dimensions": [
+        2,
+        70
+      ],
+      "rx": [
+        0.85,
+        3.2,
+        1.5
+      ],
+      "points": [
+        {
+          "point_index": 1,
+          "raw_position_index": 2,
+          "point_label": "P01",
+          "point_role": "measurement",
+          "tx": [
+            0.85,
+            10.2,
+            1.5
+          ],
+          "rx": [
+            0.85,
+            3.2,
+            1.5
+          ],
+          "distance_m": 6.999999999999999,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 2,
+          "raw_position_index": 3,
+          "point_label": "P02",
+          "point_role": "measurement",
+          "tx": [
+            0.85,
+            15.2,
+            1.5
+          ],
+          "rx": [
+            0.85,
+            3.2,
+            1.5
+          ],
+          "distance_m": 12.0,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 3,
+          "raw_position_index": 4,
+          "point_label": "P03",
+          "point_role": "measurement",
+          "tx": [
+            0.85,
+            20.6,
+            1.5
+          ],
+          "rx": [
+            0.85,
+            3.2,
+            1.5
+          ],
+          "distance_m": 17.400000000000002,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 4,
+          "raw_position_index": 5,
+          "point_label": "P04",
+          "point_role": "measurement",
+          "tx": [
+            0.85,
+            25.4,
+            1.5
+          ],
+          "rx": [
+            0.85,
+            3.2,
+            1.5
+          ],
+          "distance_m": 22.2,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 5,
+          "raw_position_index": 6,
+          "point_label": "P05",
+          "point_role": "measurement",
+          "tx": [
+            0.85,
+            30.2,
+            1.5
+          ],
+          "rx": [
+            0.85,
+            3.2,
+            1.5
+          ],
+          "distance_m": 27.0,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 6,
+          "raw_position_index": 7,
+          "point_label": "P06",
+          "point_role": "measurement",
+          "tx": [
+            0.85,
+            35.0,
+            1.5
+          ],
+          "rx": [
+            0.85,
+            3.2,
+            1.5
+          ],
+          "distance_m": 31.8,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 7,
+          "raw_position_index": 8,
+          "point_label": "P07",
+          "point_role": "measurement",
+          "tx": [
+            0.85,
+            39.8,
+            1.5
+          ],
+          "rx": [
+            0.85,
+            3.2,
+            1.5
+          ],
+          "distance_m": 36.599999999999994,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 8,
+          "raw_position_index": 9,
+          "point_label": "P08",
+          "point_role": "measurement",
+          "tx": [
+            0.85,
+            44.6,
+            1.5
+          ],
+          "rx": [
+            0.85,
+            3.2,
+            1.5
+          ],
+          "distance_m": 41.4,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 9,
+          "raw_position_index": 10,
+          "point_label": "P09",
+          "point_role": "measurement",
+          "tx": [
+            0.85,
+            50.2,
+            1.5
+          ],
+          "rx": [
+            0.85,
+            3.2,
+            1.5
+          ],
+          "distance_m": 47.0,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 10,
+          "raw_position_index": 11,
+          "point_label": "P10",
+          "point_role": "measurement",
+          "tx": [
+            0.85,
+            55.0,
+            1.5
+          ],
+          "rx": [
+            0.85,
+            3.2,
+            1.5
+          ],
+          "distance_m": 51.8,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 11,
+          "raw_position_index": 12,
+          "point_label": "P11",
+          "point_role": "measurement",
+          "tx": [
+            0.85,
+            59.9,
+            1.5
+          ],
+          "rx": [
+            0.85,
+            3.2,
+            1.5
+          ],
+          "distance_m": 56.699999999999996,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        }
+      ],
+      "source_image": "sc2-source.jpeg",
+      "source_caption": "报告图 4(b)，原图为早期 10 点示意。",
+      "source_section": "第 2.2 节场景二说明、图 4(b)",
+      "note": "当前批次按正文补充设置使用 11 个测量点。原始位置 1 为校准，原始位置 2–12 对应 P01–P11。",
+      "campaigns": [
+        "sc2_20260813_095704",
+        "sc2_20260814_093939"
+      ]
+    },
+    "sc3": {
+      "name": "L 型走廊",
+      "dimensions": [
+        34.8,
+        20
+      ],
+      "rx": [
+        14.8,
+        19,
+        1.5
+      ],
+      "points": [
+        {
+          "point_index": 1,
+          "raw_position_index": 2,
+          "point_label": "P01",
+          "point_role": "measurement",
+          "tx": [
+            14.8,
+            13,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 6.0,
+          "corridor_distance_m": 6,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 2,
+          "raw_position_index": 3,
+          "point_label": "P02",
+          "point_role": "measurement",
+          "tx": [
+            14.8,
+            11,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 8.0,
+          "corridor_distance_m": 8,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 3,
+          "raw_position_index": 4,
+          "point_label": "P03",
+          "point_role": "measurement",
+          "tx": [
+            14.8,
+            9,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 10.0,
+          "corridor_distance_m": 10,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 4,
+          "raw_position_index": 5,
+          "point_label": "P04",
+          "point_role": "measurement",
+          "tx": [
+            14.8,
+            7,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 12.0,
+          "corridor_distance_m": 12,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 5,
+          "raw_position_index": 6,
+          "point_label": "P05",
+          "point_role": "measurement",
+          "tx": [
+            14.8,
+            5,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 14.0,
+          "corridor_distance_m": 14,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 6,
+          "raw_position_index": 7,
+          "point_label": "P06",
+          "point_role": "measurement",
+          "tx": [
+            14.8,
+            3,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 16.0,
+          "corridor_distance_m": 16,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 7,
+          "raw_position_index": 8,
+          "point_label": "P07",
+          "point_role": "measurement",
+          "tx": [
+            14.8,
+            1,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 18.0,
+          "corridor_distance_m": 18,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 8,
+          "raw_position_index": 9,
+          "point_label": "P08",
+          "point_role": "measurement",
+          "tx": [
+            16.8,
+            1,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 18.110770276274835,
+          "corridor_distance_m": 20,
+          "condition": "NLOS"
+        },
+        {
+          "point_index": 9,
+          "raw_position_index": 10,
+          "point_label": "P09",
+          "point_role": "measurement",
+          "tx": [
+            18.8,
+            1,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 18.439088914585774,
+          "corridor_distance_m": 22,
+          "condition": "NLOS"
+        },
+        {
+          "point_index": 10,
+          "raw_position_index": 11,
+          "point_label": "P10",
+          "point_role": "measurement",
+          "tx": [
+            20.8,
+            1,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 18.973665961010276,
+          "corridor_distance_m": 24,
+          "condition": "NLOS"
+        },
+        {
+          "point_index": 11,
+          "raw_position_index": 12,
+          "point_label": "P11",
+          "point_role": "measurement",
+          "tx": [
+            22.8,
+            1,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 19.697715603592208,
+          "corridor_distance_m": 26,
+          "condition": "NLOS"
+        },
+        {
+          "point_index": 12,
+          "raw_position_index": 13,
+          "point_label": "P12",
+          "point_role": "measurement",
+          "tx": [
+            24.8,
+            1,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 20.591260281974,
+          "corridor_distance_m": 28,
+          "condition": "NLOS"
+        },
+        {
+          "point_index": 13,
+          "raw_position_index": 14,
+          "point_label": "P13",
+          "point_role": "measurement",
+          "tx": [
+            26.8,
+            1,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 21.633307652783937,
+          "corridor_distance_m": 30,
+          "condition": "NLOS"
+        },
+        {
+          "point_index": 14,
+          "raw_position_index": 15,
+          "point_label": "P14",
+          "point_role": "measurement",
+          "tx": [
+            28.8,
+            1,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 22.80350850198276,
+          "corridor_distance_m": 32,
+          "condition": "NLOS"
+        },
+        {
+          "point_index": 15,
+          "raw_position_index": 16,
+          "point_label": "P15",
+          "point_role": "measurement",
+          "tx": [
+            30.8,
+            1,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 24.08318915758459,
+          "corridor_distance_m": 34,
+          "condition": "NLOS"
+        },
+        {
+          "point_index": 16,
+          "raw_position_index": 17,
+          "point_label": "P16",
+          "point_role": "measurement",
+          "tx": [
+            32.8,
+            1,
+            1.5
+          ],
+          "rx": [
+            14.8,
+            19,
+            1.5
+          ],
+          "distance_m": 25.455844122715707,
+          "corridor_distance_m": 36,
+          "condition": "NLOS"
+        }
+      ],
+      "source_image": "sc3-source.png",
+      "source_caption": "报告图 5，保留原图 (x, y) 定义。",
+      "source_section": "第 2.2 节场景三说明、图 5",
+      "note": "P01–P07 为 LOS，P08–P16 为 NLOS。直线收发距离由坐标计算；报告中 NLOS 的 20–36 m 为沿走廊距离，两者分别显示。原始位置 1 为校准。",
+      "campaigns": [
+        "sc3_20260817_095203",
+        "sc3_20260818_094059"
+      ]
+    },
+    "sc4": {
+      "name": "室内实验室",
+      "dimensions": [
+        15,
+        12
+      ],
+      "rx": null,
+      "points": [
+        {
+          "point_index": 1,
+          "raw_position_index": 2,
+          "point_label": "P01",
+          "point_role": "measurement",
+          "tx": null,
+          "rx": null,
+          "distance_m": null,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 2,
+          "raw_position_index": 3,
+          "point_label": "P02",
+          "point_role": "measurement",
+          "tx": null,
+          "rx": null,
+          "distance_m": null,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 3,
+          "raw_position_index": 4,
+          "point_label": "P03",
+          "point_role": "measurement",
+          "tx": null,
+          "rx": null,
+          "distance_m": null,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 4,
+          "raw_position_index": 5,
+          "point_label": "P04",
+          "point_role": "measurement",
+          "tx": null,
+          "rx": null,
+          "distance_m": null,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 5,
+          "raw_position_index": 6,
+          "point_label": "P05",
+          "point_role": "measurement",
+          "tx": null,
+          "rx": null,
+          "distance_m": null,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 6,
+          "raw_position_index": 7,
+          "point_label": "P06",
+          "point_role": "measurement",
+          "tx": null,
+          "rx": null,
+          "distance_m": null,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 7,
+          "raw_position_index": 8,
+          "point_label": "P07",
+          "point_role": "measurement",
+          "tx": null,
+          "rx": null,
+          "distance_m": null,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 8,
+          "raw_position_index": 9,
+          "point_label": "P08",
+          "point_role": "measurement",
+          "tx": null,
+          "rx": null,
+          "distance_m": null,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        },
+        {
+          "point_index": 9,
+          "raw_position_index": 10,
+          "point_label": "P09",
+          "point_role": "measurement",
+          "tx": null,
+          "rx": null,
+          "distance_m": null,
+          "corridor_distance_m": null,
+          "condition": "LOS"
+        }
+      ],
+      "source_image": null,
+      "source_caption": "",
+      "source_section": "第 2.2 节场景四说明",
+      "note": "提供的报告尚未给出实验室点位图和收发机坐标，暂不显示坐标距离。点位编号沿用现有采集顺序。",
+      "campaigns": [
+        "sc4_20260807_150330",
+        "sc4_20260810_102021"
+      ]
+    }
+  }
+}

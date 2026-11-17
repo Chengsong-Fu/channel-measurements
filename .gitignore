@@ -1,0 +1,13 @@
+/data/
+/downloads/
+*.zip
+*.zip.[0-9][0-9][0-9]
+*.part
+*.restore-part
+__pycache__/
+.venv/
+.env
+*.pem
+*.p12
+*.pfx
+*.key
